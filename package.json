@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sujithps/jmk-wedding/issues"
   },
-  "homepage": "https://github.com/sujithps/jmk-wedding#readme"
+  "homepage": "https://github.com/sujithps/jmk-wedding#readme",
+  "dependencies": {
+    "open": "0.0.5"
+  }
 }
