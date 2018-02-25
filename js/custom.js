@@ -1,7 +1,7 @@
   
 $(document).ready(function(){
 
- $(".clock").countdown('2018/04/13', function(event) {
+ $(".clock").countdown('2018/04/18', function(event) {
     $(this).html(event.strftime('<span>%D <b>days</b></span> <span>%H<b>hours</b></span> <span>%M<b>minutes</b></span> <span>%S<b>seconds</b></span>'));
   });
   

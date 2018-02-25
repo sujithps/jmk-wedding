@@ -1,27 +1,29 @@
 {
   "name": "jince-mrg",
   "version": "1.0.0",
-  "description": "jince weds Finu",
+  "description": "Jince weds Finu",
+  "engines": {
+    "node": "8.9.1"
+  },
   "main": "index.js",
-  "target": "web",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sujithps/jmk-wedding.git"
-  },
-  "keywords": [
-    "jmk"
-  ],
-  "author": "sujithps",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sujithps/jmk-wedding/issues"
-  },
-  "homepage": "https://github.com/sujithps/jmk-wedding#readme",
   "dependencies": {
     "open": "0.0.5"
-  }
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sujithps/jmk-wedding"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "license": "MIT"
 }
