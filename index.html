@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Jince Weds Finu</title>
+<script src="http://cdn.bootcss.com/jquery/1.8.1/jquery.min.js"></script>
+<script src="js/snow-plugin.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel|Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="css/icons.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/slick.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+<style>
+body{
+	background:rgb(237, 36, 55);
+}
+.snow-canvas {
+    top: 0;
+    left: 0;
+    position: fixed;
+    border-top: 3px solid rgb(34, 34, 34);
+    display: block;
+    height: 100%;
+    pointer-events: none;
+}
+
+
+</style>
+    <canvas class="snow-canvas" speed="1" interaction="false" size="2" count="80" opacity="0.00001" start-color="rgba(253,252,251,1)" end-color="rgba(251,252,253,0.3)" wind-power="0" image="false" width="1366" height="600"></canvas>
+    <canvas class="snow-canvas" speed="3" interaction="true" size="6" count="30" start-color="rgba(253,252,251,1)" end-color="rgba(251,252,253,0.3)" opacity="0.00001" wind-power="2" image="false" width="1366" height="600"></canvas>
+    <canvas class="snow-canvas" speed="3" interaction="true" size="12" count="20" wind-power="-5" image="imgs/snow.png" width="1366" height="600"></canvas>
+	
+	
+	<div >
+	   <section class="hero-container">
+  <div class="hero-slide">
+    <div class="hero-slide-content">
+      <div class="container">
+        <div class="row row-eq-height">
+          <div class="col-md-12">
+            <div class="slide-content">
+			  <img src="imgs/bride-icon.png"/>
+              <p>We are getting married</p>
+              <h1>Jince Martin Kalarickal <br>&amp;<br>  Finu</h1> 
+              <div class="hero-date">
+              <p>Save the Date and Join us on</p>
+              <h2>13 April 2018</h2>
+              </div> 
+    <div class="countdown-box">
+            	<p>until we get married...</p>
+     <div class="clock"></div> 
+      </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+	</div>
+<script>
+$(".snow-canvas").snow();
+</script>
+<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
