@@ -1,17 +1,18 @@
 {
-  "name": "jince-mrg",
+  "name": "jince-finu",
   "version": "1.0.0",
-  "description": "Jince weds Finu",
+  "description": "Jince Weds Finu",
   "engines": {
     "node": "8.9.1"
   },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "dependencies": {
-    "open": "0.0.5"
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
   },
   "devDependencies": {
     "request": "^2.81.0",
@@ -23,7 +24,8 @@
   },
   "keywords": [
     "node",
-    "heroku"
+    "heroku",
+    "express"
   ],
   "license": "MIT"
 }
